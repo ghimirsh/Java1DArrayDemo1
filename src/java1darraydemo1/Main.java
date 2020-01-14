@@ -17,6 +17,11 @@ public class Main {
         for(int i = 0; i < num.length; i++){
             num[i] = scanner.nextInt();
         }
+        //display array elements
+        System.out.println("The numbers are : ");
+        for(int i = 0; i < num.length; i++){
+            System.out.println("  " + num[i]);
+        }
     }
     
 }
