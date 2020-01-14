@@ -28,6 +28,9 @@ public class Main {
             total += num[i];
         }
         System.out.println("Total is: " + total);
+        //to find average of array elements
+        double average = total / num.length;
+        System.out.println("Average is : " + average);
     }
     
 }
