@@ -31,6 +31,15 @@ public class Main {
         //to find average of array elements
         double average = total / num.length;
         System.out.println("Average is : " + average);
+        
+        //Maximum element of the array
+        int max = num[0];
+        for(int i = 0; i < num.length; i++){
+            if(num[i] > max){
+                max = num[i];
+            }
+        }
+        System.out.println("Biggest Number is : " + max);
     }
     
 }
