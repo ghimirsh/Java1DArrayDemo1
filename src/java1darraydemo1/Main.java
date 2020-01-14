@@ -48,6 +48,7 @@ public class Main {
                 min = num[i];
             }
         }
+        System.out.println("Minimum Array element is : " + min);
     }
     
 }
