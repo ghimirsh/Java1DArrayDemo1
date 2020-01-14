@@ -22,6 +22,12 @@ public class Main {
         for(int i = 0; i < num.length; i++){
             System.out.println("  " + num[i]);
         }
+        //total of the array elements
+        int total = 0;
+        for(int i = 0; i < num.length; i++){
+            total += num[i];
+        }
+        System.out.println("Total is: " + total);
     }
     
 }
